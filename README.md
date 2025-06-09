@@ -35,11 +35,11 @@ The [GTZAN Genre Collection](https://www.dropbox.com/scl/fi/logv7hsjc1t3daaysuhy
 - Showed good performance on distinguishing Classic and Country genres
 
 - Classification Report:
-              precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
-       blues       0.44      0.40      0.42        20
-   classical       0.91      1.00      0.95        20
-     country       0.37      0.90      0.52        20
+      blues       0.44      0.40      0.42        20  
+      classical       0.91      1.00      0.95        20
+      country       0.37      0.90      0.52        20
        disco       0.42      0.70      0.53        20
       hiphop       1.00      0.10      0.18        20
         jazz       0.75      0.60      0.67        20
@@ -53,8 +53,7 @@ The [GTZAN Genre Collection](https://www.dropbox.com/scl/fi/logv7hsjc1t3daaysuhy
 weighted avg       0.67      0.53      0.51       192
 
 
-
-
+## Comments: The Model showed over-fitting over longer no. of epochs but gave lesser accuracy on lower no. of epochs
 ## 🚀 How to Run
 
 1. Clone the repository:
